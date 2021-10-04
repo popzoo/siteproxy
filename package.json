@@ -30,7 +30,7 @@
     "url": "https://github.com/popsee/siteproxy"
   }, 
   "devDependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.2",
     "html-loader": "^1.3.0",
     "jest": "^25.1.0",
     "webpack": "^4.44.1",
