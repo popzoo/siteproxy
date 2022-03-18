@@ -7,7 +7,7 @@ const {CookieAccessInfo, CookieJar, Cookie} = cookiejar
 
 let config = {
     httpprefix: 'https', port: 443,
-    serverName: 'siteproxy-liard.vercel.app'//'siteproxy.netptop.workers.dev',
+    serverName: 'siteproxy.netptop.workers.dev',
 }
 let blockedSites = ['www.chase.com'] // accessing to chase.com was reported by google
 
@@ -185,6 +185,7 @@ const siteSpecificReplace = {
         'a\.....\.style.display=0===.."none":"";': `;`, // a.A[c].style.display = 0 === b ? "none" : "";
         '="/(watch_fragments2_ajax)"': `="/https/www.youtube.com/$1"`,
         '"(\\\\/)yts\\\\/': `"$1https$1www.youtube.com$1yts$1`,
+        ".\.test\..\..!0:!1": `1`, // b&&b.test(a)?!0:!1
     },
     'm.youtube.com': {
         '"/(results.search_query=)': `"/https/m.youtube.com/$1`,
