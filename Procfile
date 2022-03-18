@@ -1,1 +1,1 @@
-web: herokuAddr=wood.firenet.workers.dev npm run start
+web: herokuAddr=door.firenet.workers.dev npm run start
