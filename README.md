@@ -12,7 +12,7 @@ user browser +-------------->+ siteproxy      +-------> wikipedia
                                                  +----> chinese forums
 ```
 请勿将本项目用于非法用途，否则后果自负。
-
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 ## 目录
 
 - [特点](#特点)
